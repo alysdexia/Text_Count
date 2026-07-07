@@ -41,3 +41,5 @@ I came up with this on stupid iPadOS Safari so even a shackled platform can surp
 ### Other must-use applets
 * [Type Sample](https://www.typewolf.com/type-sample), [Wayback](https://web.archive.org/web/20201203064635/https://www.typesample.com/): names and previews fonts
 * [Validate This Page](https://validator.w3.org/nu/about.html), HTML test
+
+alysdexia
