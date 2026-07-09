@@ -38,6 +38,7 @@ I came up with this on stupid iPadOS Safari so even a shackled platform can surp
 * https://www.google.com/search?q=does+Javascript+require+grave+accents+as+quote+marks%3F
 * [does Javascript know the height of a text selection?, AI Mode](https://share.google/aimode/t3SdhFyKkEbEOvLcL)
 * r1: I was occupied with numerical conventions that I forgot my own preferred decimal separator.  I also needed to fix two bugs with mixed numbers whose solution still doesn't make sense when I look at the regex.
+  * Now I understand what went and what I did wrong.  When I first added the − I was aware of Mozilla’s warning to put that at the beginning or end of brackets.  But I added · after forgetting to and didn’t tell Google AI that I did after the −.  I didn’t expect anything bad to happen as that was also punctuation, but that middot happens to be in Latin-1 Supplement which means most of Basic Latin broke the match.
 
 ### Other must-use applets
 * [Type Sample](https://www.typewolf.com/type-sample), [Wayback](https://web.archive.org/web/20201203064635/https://www.typesample.com/): names and previews fonts
