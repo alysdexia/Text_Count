@@ -12,8 +12,10 @@ Over 25 hours—didn’t bother with sleep—with Google AI and Mozilla we extre
   * Any string of nonspace makes a word, especially nonwords.
     * Translate all visibles to maybe-hyphenated names to verbify them.
   * Numbers may include any intermittent multiple of .,'− as separators or affixes, thus even phone numbers, social security numbers, concatenated tuples, Swiss numbers, and IPv4 addresses quantify.
-    * Confusables and measure tuples shall never be supported, besides the luckily-hyphenated date, thus /:;()°&prime;&Prime; and any space (as _a_ _b_ = _ab_).
+    * Confusables and measure tuples shall never be supported, besides the luckily-hyphenated date, thus /:;()°&prime;&Prime; and any space (as _a_ _b_ = _ab_), thus no Roman numerals.
+      * I _could_ ask Google AI to include number names in numbers, but that'd bloat the applet and I'd feel pressure to support many languages.
   * Only denary and smaller is supported, according to dumb regex but also for name/identifier confusables.
+    * Enclosed digits in Enclosed Alphanumerics aren't picked up, nor are composed list starters and fullwidth digits.
   * I don't know whether this thing picks up zero-size controls.
     * I could look but don't need to.  Maybe you can tell me.
 * The best−looking text counter.
