@@ -1,5 +1,5 @@
 ### Text Count
-Over 25 hours—didn’t bother with sleep—with Google AI and Mozilla we extremely optimized this applet that tells you the number of pages, lines, words, numbers, digits, and figures selected on a webpage.  Thanks to LLMs I’m more familiar with JS than the last time earlier this spring when I wrote a script to rewrite Wikimedia timestamps intelligently.
+Over 25 hours—didn’t bother with sleep—with Google AI and Mozilla we extremely optimized this applet that tells you the number of pages, lines, words, numbers, digits, and figures selected on a webpage.  Thanks to LLMs I’m more familiar with JS than the last time earlier this spring when I wrote a script to rewrite MediaWiki timestamps intelligently.
 * One page every viewport of lines
 * One line every vertical figure
 * One word every boundary pair
